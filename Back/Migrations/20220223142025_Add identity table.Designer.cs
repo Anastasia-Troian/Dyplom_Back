@@ -10,8 +10,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Back.Migrations
 {
     [DbContext(typeof(AppEFContext))]
-    [Migration("20220223132949_first")]
-    partial class first
+    [Migration("20220223142025_Add identity table")]
+    partial class Addidentitytable
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
